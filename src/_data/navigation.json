@@ -11,7 +11,8 @@
       { "label": "Myofascial Release", "url": "/services/myofascial-release/" },
       { "label": "Facial Cupping", "url": "/services/facial-cupping/" },
       { "label": "Doula", "url": "/services/doula/" },
-      { "label": "Maternity Massage", "url": "/services/maternity-massage/" }
+      { "label": "Maternity Massage", "url": "/services/maternity-massage/" },
+      { "label": "Red Light Therapy", "url": "/services/red-light-therapy/" }
     ]
   },
   { "label": "Massage Menu", "url": "/massage-menu/" },
