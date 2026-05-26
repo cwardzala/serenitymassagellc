@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Massage Menu
-description: "Massage therapy pricing and packages at Serenity Massage LLC in North Olmsted, OH. Therapeutic, maternity, cupping, and stress relief services."
+description: "Massage therapy pricing and services at Serenity Massage LLC in North Olmsted, OH. Therapeutic, prenatal, cupping, red light therapy, and more."
 ---
 
 <div class="pricing-section">
@@ -12,21 +12,28 @@ description: "Massage therapy pricing and packages at Serenity Massage LLC in No
         <strong>Therapeutic Massage</strong>
         <div class="duration">60 minutes</div>
       </div>
-      <div class="price">$90</div>
+      <div class="price">$100</div>
+    </div>
+    <div class="pricing-card">
+      <div>
+        <strong>Therapeutic Massage</strong>
+        <div class="duration">75 minutes</div>
+      </div>
+      <div class="price">Varies</div>
     </div>
     <div class="pricing-card">
       <div>
         <strong>Therapeutic Massage</strong>
         <div class="duration">90 minutes</div>
       </div>
-      <div class="price">$120</div>
+      <div class="price">Varies</div>
     </div>
     <div class="pricing-card">
       <div>
         <strong>Therapeutic Massage</strong>
         <div class="duration">120 minutes</div>
       </div>
-      <div class="price">$150</div>
+      <div class="price">Varies</div>
     </div>
   </div>
 </div>
@@ -36,40 +43,78 @@ description: "Massage therapy pricing and packages at Serenity Massage LLC in No
   <div class="pricing-grid">
     <div class="pricing-card">
       <div>
-        <strong>Maternity Massage &amp; Doula</strong>
+        <strong>Prenatal Massage</strong>
         <div class="duration">60 minutes</div>
       </div>
-      <div class="price">$90</div>
+      <div class="price">$100+</div>
     </div>
     <div class="pricing-card">
       <div>
-        <strong>Massage Cupping</strong>
-        <div class="duration">60 minutes</div>
-      </div>
-      <div class="price">$110</div>
-    </div>
-    <div class="pricing-card">
-      <div>
-        <strong>Massage Cupping</strong>
+        <strong>Doula</strong>
         <div class="duration">90 minutes</div>
       </div>
-      <div class="price">$130</div>
+      <div class="price">Varies</div>
     </div>
     <div class="pricing-card">
       <div>
         <strong>Stress Triangle</strong>
         <div class="duration">45 minutes</div>
       </div>
-      <div class="price">$75</div>
+      <div class="price">Varies</div>
+    </div>
+    <div class="pricing-card">
+      <div>
+        <strong>Kids Massage</strong>
+        <div class="duration">45 minutes</div>
+      </div>
+      <div class="price">Varies</div>
     </div>
   </div>
 </div>
 
-<div class="package-highlight">
-  <h3>Package Discounts</h3>
-  <p>Save when you buy in bulk! Packages available for 6, 9, or 12 sessions at various durations with savings up to $330. Contact us for package pricing details.</p>
-  <a href="/contact/" class="btn btn-outline" style="color: #fff; border-color: #fff; margin-top: 1rem;">Ask About Packages</a>
+<div class="pricing-section">
+  <h2>Cupping</h2>
+  <div class="pricing-grid">
+    <div class="pricing-card">
+      <div>
+        <strong>Cupping</strong>
+        <div class="duration">60 minutes</div>
+      </div>
+      <div class="price">Varies</div>
+    </div>
+    <div class="pricing-card">
+      <div>
+        <strong>Facial Cupping</strong>
+        <div class="duration">30 minutes</div>
+      </div>
+      <div class="price">Varies</div>
+    </div>
+  </div>
 </div>
+
+<div class="pricing-section">
+  <h2>Red Light Therapy</h2>
+  <div class="pricing-grid">
+    <div class="pricing-card">
+      <div>
+        <strong>Face Red Light Therapy</strong>
+        <div class="duration">15 minutes</div>
+      </div>
+      <div class="price">$25</div>
+    </div>
+    <div class="pricing-card">
+      <div>
+        <strong>Full Body Red Light Therapy</strong>
+        <div class="duration">30 minutes</div>
+      </div>
+      <div class="price">$60</div>
+    </div>
+  </div>
+</div>
+
+<p style="text-align: center; margin: 2rem 0;">
+  <a href="https://serenitymassagellc.glossgenius.com/services" class="btn btn-primary" target="_blank" rel="noopener">Book Online for Full Pricing</a>
+</p>
 
 <div class="cancellation-policy">
   <h3>Cancellation Policy</h3>
