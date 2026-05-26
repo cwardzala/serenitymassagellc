@@ -191,6 +191,11 @@ ul, ol {
   color: var(--color-primary);
 }
 
+.nav-links .nav-cta a:hover {
+  background: var(--color-accent-dark);
+  color: #fff;
+}
+
 .nav-links .active > a {
   color: var(--color-primary);
 }
