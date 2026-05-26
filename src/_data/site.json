@@ -1,0 +1,20 @@
+{
+  "name": "Serenity Massage LLC",
+  "owner": "Karen K. Wardzala",
+  "phone": "440-471-9029",
+  "phoneHref": "tel:+14404719029",
+  "address": "28970 Lorain Rd, Suite 100, North Olmsted, OH 44070",
+  "mapUrl": "https://www.google.com/maps/search/?api=1&query=28970+Lorain+Rd+Suite+100+North+Olmsted+OH+44070",
+  "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2988.5!2d-81.923!3d41.42!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z28970+Lorain+Rd+North+Olmsted+OH!5e0!3m2!1sen!2sus!4v1",
+  "bookingUrl": "https://serenitymassagellc.glossgenius.com",
+  "tagline": "Providing relief with hot stone, sports massage and pregnancy massage",
+  "hours": [
+    { "day": "Monday", "time": "11am – 7pm" },
+    { "day": "Tuesday", "time": "11am – 5pm" },
+    { "day": "Wednesday", "time": "2pm – 7pm" },
+    { "day": "Thursday", "time": "2pm – 7pm" },
+    { "day": "Friday", "time": "Closed" },
+    { "day": "Saturday", "time": "Closed" },
+    { "day": "Sunday", "time": "Closed" }
+  ]
+}
