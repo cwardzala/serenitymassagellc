@@ -37,7 +37,7 @@
               </ul>
             </li>
           {%- else %}
-            <li><a href="{{ item.url }}">{{ item.label }}</a></li>
+            <li><a href="{{ item.url }}"{% if item.external %} target="_blank" rel="noopener"{% endif %}>{{ item.label }}</a></li>
           {%- endif %}
         {%- endfor %}
         <li class="nav-cta">

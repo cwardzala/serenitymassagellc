@@ -15,5 +15,6 @@
     ]
   },
   { "label": "Massage Menu", "url": "/massage-menu/" },
-  { "label": "Contact Us", "url": "/contact/" }
+  { "label": "Contact Us", "url": "/contact/" },
+  { "label": "Gift Cards", "url": "https://serenitymassagellc.glossgenius.com/shop/gift-cards", "external": true }
 ]
