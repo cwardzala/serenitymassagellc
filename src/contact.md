@@ -26,37 +26,6 @@ description: "Contact Serenity Massage LLC in North Olmsted, OH. Call 440-471-90
   </div>
 </div>
 
-<div class="contact-form">
-  <h2>Send Us a Message</h2>
-  <form>
-    <div class="form-row">
-      <div class="form-group">
-        <label for="first-name">First Name</label>
-        <input type="text" id="first-name" name="first-name" required>
-      </div>
-      <div class="form-group">
-        <label for="last-name">Last Name</label>
-        <input type="text" id="last-name" name="last-name" required>
-      </div>
-    </div>
-    <div class="form-row">
-      <div class="form-group">
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone">
-      </div>
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="comments">Comments</label>
-      <textarea id="comments" name="comments" rows="5"></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary">Send Message</button>
-  </form>
-</div>
-
 <div class="map-container">
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2988.5!2d-81.923!3d41.42!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjg5NzAgTG9yYWluIFJkIE5vcnRoIE9sbXN0ZWQgT0g!5e0!3m2!1sen!2sus"
