@@ -107,7 +107,7 @@ ul, ol {
   font-weight: 600;
   text-align: center;
   cursor: pointer;
-  transition: background-color 0.2s, opacity 0.2s;
+  transition: background-color 0.2s, color 0.2s, opacity 0.2s;
   border: none;
 }
 
@@ -225,7 +225,6 @@ ul, ol {
   padding: 0.5rem 1.25rem;
   font-size: 0.85rem;
   color: #fff;
-  transition: background-color 0.2s, color 0.2s;
 }
 
 .nav-cta .btn:hover {
