@@ -10,7 +10,14 @@ layout: layouts/base.njk
 
 <section class="section section-alt">
   <div class="container">
-    {{ content | safe }}
+    <div class="welcome-grid">
+      <div class="welcome-photo">
+        <img src="/assets/images/karen-headshot.jpg" alt="Karen K. Wardzala, Licensed Massage Therapist" width="400" height="560">
+      </div>
+      <div class="welcome-text">
+        {{ content | safe }}
+      </div>
+    </div>
   </div>
 </section>
 
