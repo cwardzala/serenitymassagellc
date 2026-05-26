@@ -1,0 +1,50 @@
+---
+layout: layouts/base.njk
+---
+
+<section class="hero">
+  <h1>{{ site.name }}</h1>
+  <p>{{ site.tagline }}</p>
+  <a href="{{ site.bookingUrl }}" class="btn btn-primary" target="_blank" rel="noopener">Book Your Appointment</a>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    {{ content | safe }}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Our Services</h2>
+      <p>Specialized therapeutic treatments for pain relief and recovery</p>
+    </div>
+    <div class="service-grid">
+      {%- for card in serviceCards %}
+        <div class="service-card">
+          <h3>{{ card.title }}</h3>
+          <p>{{ card.excerpt }}</p>
+          <a href="{{ card.url }}" class="learn-more">Learn More &rarr;</a>
+        </div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="contact-bar">
+  <div class="contact-bar-inner">
+    <div class="contact-bar-item">
+      <h3>Call Us</h3>
+      <p><a href="{{ site.phoneHref }}">{{ site.phone }}</a></p>
+    </div>
+    <div class="contact-bar-item">
+      <h3>Visit Us</h3>
+      <p>{{ site.address }}</p>
+    </div>
+    <div class="contact-bar-item">
+      <h3>Hours</h3>
+      <p>Mon 11–7 | Tue 11–5 | Wed–Thu 2–7</p>
+    </div>
+  </div>
+</section>

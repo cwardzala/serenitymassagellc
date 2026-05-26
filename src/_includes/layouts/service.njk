@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="page-header">
+  <h1>{{ title }}</h1>
+</div>
+
+<div class="page-content">
+  {{ content | safe }}
+
+  {% if conditions %}
+    <h2>Conditions Treated</h2>
+    <ul class="conditions-list">
+      {%- for condition in conditions %}
+        <li>{{ condition }}</li>
+      {%- endfor %}
+    </ul>
+  {% endif %}
+
+  <div class="service-cta">
+    <a href="{{ site.bookingUrl }}" class="btn btn-primary" target="_blank" rel="noopener">Book Your Appointment</a>
+  </div>
+</div>
