@@ -1,7 +1,9 @@
 ---
 layout: layouts/page.njk
 title: About
-description: "Meet Karen K. Wardzala, founder of Serenity Massage LLC — licensed massage therapist specializing in therapeutic and medical massage in North Olmsted, OH."
+ogTitle: "Best Massage Therapist Cleveland — Sports & Medical Massage"
+description: "Karen Wardzala, former nurse of over 20 years, with a degree in massage therapy is a licensed massage therapist specializing in healing with medical massage."
+ogImage: karen-headshot.jpg
 ---
 
 ## Karen K. Wardzala, LMT

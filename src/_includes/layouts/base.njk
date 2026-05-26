@@ -3,10 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }} | {{ site.name }}</title>
+
+  <title>{{ ogTitle or title }} | {{ site.name }}</title>
   <meta name="description" content="{{ description or site.tagline }}">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+  <!-- Open Graph -->
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="{{ 'website' if page.url == '/' else 'article' }}">
+  <meta property="og:title" content="{{ ogTitle or title }} | {{ site.name }}">
+  <meta property="og:description" content="{{ description or site.tagline }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:site_name" content="Serenity Massage">
+  <meta property="og:image" content="{{ site.url }}/assets/images/{{ ogImage or 'og-default.jpg' }}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicons -->
   <link rel="icon" href="/assets/images/favicon.ico">
   <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  <meta name="msapplication-TileImage" content="/assets/images/apple-touch-icon.png">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": "{{ site.url }}/#organization",
+        "name": "{{ site.name }}",
+        "url": "{{ site.url }}/",
+        "telephone": "{{ site.phone }}",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "28970 Lorain Rd, Suite 100",
+          "addressLocality": "North Olmsted",
+          "addressRegion": "OH",
+          "postalCode": "44070",
+          "addressCountry": "US"
+        },
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "11:00", "closes": "19:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "11:00", "closes": "17:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "14:00", "closes": "19:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "14:00", "closes": "19:00" }
+        ],
+        "image": "{{ site.url }}/assets/images/karen-headshot.jpg",
+        "logo": "{{ site.url }}/assets/images/apple-touch-icon.png",
+        "priceRange": "$$",
+        "description": "{{ site.tagline }}"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "url": "{{ site.url }}/",
+        "name": "Serenity Massage",
+        "description": "{{ site.tagline }}",
+        "publisher": { "@id": "{{ site.url }}/#organization" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "{{ site.url }}{{ page.url }}",
+        "url": "{{ site.url }}{{ page.url }}",
+        "name": "{{ ogTitle or title }}",
+        "isPartOf": { "@id": "{{ site.url }}/#website" },
+        "about": { "@id": "{{ site.url }}/#organization" },
+        "description": "{{ description or site.tagline }}",
+        "inLanguage": "en-US"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Fonts & Styles -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">

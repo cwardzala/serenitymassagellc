@@ -1,7 +1,8 @@
 ---
 layout: layouts/home.njk
 title: Home
-description: "Serenity Massage LLC offers therapeutic massage, deep tissue, sports massage, and pregnancy massage in North Olmsted, OH."
+ogTitle: "Best Therapeutic, Deep Tissue & Sports Massage in North Olmsted"
+description: "Suffering from pain, decreased range of motion or repetitive injuries? At Serenity Massage our therapeutic massage relieves pain & improves recovery time."
 serviceCards:
   - title: Deep Tissue Massage
     excerpt: "Targeting chronic pain and deeper muscle layers for athletes and those with persistent tension."
