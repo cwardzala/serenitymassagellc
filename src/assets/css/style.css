@@ -183,7 +183,7 @@ ul, ol {
   font-size: 0.9rem;
   font-weight: 500;
   border-radius: 6px;
-  transition: background-color 0.2s;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 .nav-links a:hover {
@@ -191,10 +191,6 @@ ul, ol {
   color: var(--color-primary);
 }
 
-.nav-links .nav-cta a:hover {
-  background: var(--color-accent-dark);
-  color: #fff;
-}
 
 .nav-links .active > a {
   color: var(--color-primary);
@@ -229,10 +225,12 @@ ul, ol {
   padding: 0.5rem 1.25rem;
   font-size: 0.85rem;
   color: #fff;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 .nav-cta .btn:hover {
-  color: #fff;
+  background: var(--color-bg);
+  color: var(--color-primary);
 }
 
 /* Hamburger */
