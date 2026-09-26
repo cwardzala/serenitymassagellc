@@ -64,7 +64,7 @@ serenitymassagellc/
 
 **`site.json`** — single source of truth for business info:
 - `name`: "Serenity Massage LLC"
-- `phone`: "440-471-9029"
+- `phone`: "440-865-1501"
 - `address`: "28970 Lorain Rd, Suite 100, North Olmsted, OH 44070"
 - `bookingUrl`: "https://serenitymassagellc.glossgenius.com"
 - `hours`: array of `{ day, time }` objects
