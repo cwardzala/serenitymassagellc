@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Contact Us
-description: "Contact Serenity Massage LLC in North Olmsted, OH. Call 440-471-9029 or visit us at 28970 Lorain Rd, Suite 100."
+description: "Contact Serenity Massage LLC in North Olmsted, OH. Call 440-865-1501 or visit us at 28970 Lorain Rd, Suite 100."
 ---
 
 <div class="contact-grid">
